@@ -2,8 +2,9 @@
 <html>
 <head>
 <meta charset="utf-8">
+<meta http-equiv="refresh" content="yes">
 
-<title>Iven | 开源·云计算·全栈开发</title>
+<title>Iven | 云原生 . 微服务 . 工程效率 . Python . Go</title>
 <style type="text/css">
 
 article,
@@ -266,33 +267,28 @@ body.pdf h1 {
 }
 body.pdf h2 {
   letter-spacing: 0;
-  text-transform: uppercase;
   font-weight: normal;
 }
 body.pdf h3 {
   float: left;
-  width: 16%;
+  width: 20%;
   font-style: normal;
 }
 body.pdf h3+p {
   float: left;
-  width: 84%;
+  width: 80%;
 }
 body.pdf blockquote {
   top: 40px;
   right: 50px;
   position: absolute;
 }
-body.pdf ul li {
-  width: 28%;
-  float: left;
-}
 body.pdf ul dl {
   margin: 0;
   padding: 0.3em 0 0;
 }
 body.pdf ul dl dt {
-  font-size: 122%;
+  font-size: 130%;
   font-weight: normal;
   margin: 0 0 .75em;
 }
@@ -301,7 +297,7 @@ body.pdf ul dl dd {
 }
 body.pdf ol {
   float: left;
-  width: 84%;
+  width: 80%;
   margin: .7em 0 0;
 }
 body.pdf ol li {
@@ -317,7 +313,7 @@ body.pdf ol li:nth-child(3) {
   border-top: none;
 }
 body.pdf dl {
-  margin: .7em 0 0;
+  margin: .3em 0 0;
   page-break-inside: avoid !important;
   display: block;
 }
@@ -326,7 +322,7 @@ body.pdf dl strong {
   margin-top: -2em;
 }
 body.pdf dl em {
-  font-size: 130%;
+  font-size: 110%;
   font-style: normal;
 }
 
@@ -341,15 +337,17 @@ body.pdf dl em {
   content: ".";
 }
 body {
-  font-family: 'Helvetica Neue', 'Helvetica', Arial, serif;
+  font-family: 'Noto Serif CJK SC', 'Helvetica Neue', 'Helvetica', Arial, serif;
   color: #444;
 }
 h1,
 h2,
 h3,
 h4,
-ul dl dt {
-  font-family: 'Helvetica Neue Light', 'Helvetica', Arial, serif;
+dd em,
+dd strong,
+dl dt {
+  font-family: 'Noto Serif CJK SC SemiBold', 'Helvetica Neue Light', 'Helvetica', Arial, serif;
 }
 h1:before {
   content: "+";
@@ -432,10 +430,13 @@ ul {
   margin: 0;
   padding: 0;
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
 }
 ul li {
   margin: 0;
   padding: 0;
+  flex-basis: 33%;
 }
 ul dl {
   margin: .3em 0 0;
@@ -454,7 +455,7 @@ ul dl dd {
 ol {
   margin: 0;
   padding: 0 0 .75em;
-  width: 84%;
+  width: 80%;
   display: inline-block;
 }
 ol li {
@@ -580,15 +581,11 @@ ul li dt {
   }
   h3 {
     float: left;
-    width: 16%;
+    width: 20%;
   }
   h3+p {
     float: left;
-    width: 84%;
-  }
-  ul li {
-    width: 28%;
-    float: left;
+    width: 80%;
   }
   ul dl dt {
     font-size: 122%;
@@ -600,7 +597,7 @@ ul li dt {
   }
   ol {
     float: left;
-    width: 84%;
+    width: 80%;
     margin: .6em 0 0;
   }
   ol li {
@@ -634,108 +631,92 @@ ul li dt {
     <div class="resume">
         <h1>Iven</h1>
 
-<h2>开源·云计算·全栈开发</h2>
+<h2>云原生 . 微服务 . 工程效率 . Python . Go</h2>
 
 <blockquote>
-  <p><a href="ivenvd@gmail.com">ivenvd@gmail.com</a><br />
+  <p>(+86) 1xx-xxxx-xxxx<br />
+  <a href="ivenvd@gmail.com">ivenvd@gmail.com</a><br />
   <a href="https://github.com/iven/">https://github.com/iven/</a></p>
 </blockquote>
 
 <hr />
 
-<h3 id="skills">知识技能</h3>
-
-<ul>
-<li><dl>
-<dt>开源技术</dt>
-<dd>Linux/开源爱好者，精通开源社区开发流程。阅读过 Linux 内核在内的诸多开源代码，时常贡献开源，并拥有自己的开源项目。</dd>
-
-<dd>熟悉 C, Python, Ruby, Scala 等编程语言，使用过 Go, Rust 等前沿语言。</dd>
-</dl></li>
-<li><dl>
-<dt>基础架构</dt>
-<dd>作为主力人员，从零组建爱奇艺弹性私有云计算平台，分布式视频转码平台，PaaS 平台。</dd>
-
-<dd>在公司内部推广 Mesos, Docker, Spark, Ansible, Vagrant 等新兴技术的使用，并为相关开源项目贡献代码。</dd>
-</dl></li>
-<li><dl>
-<dt>Web 前后端</dt>
-<dd>熟练使用 Django, Rails, MySQL, Redis, AngularJS, Vue.js, Webpack 等前后端技术，快速构建 HTML5 应用。</dd>
-
-<dd>熟悉 PC、移动端的 Web、RESTful API 开发，熟练掌握响应式开发、前后端分离技术。</dd>
-</dl></li>
-</ul>
-
-<hr />
-
-<h3 id="experience">个人经历</h3>
+<h3 id="work">工作经历</h3>
 
 <dl>
-<dt>北京微学明日网络科技有限公司</dt>
+<dt>知乎</dt>
 <dd>
-<p><em>优答（在线教育类 APP）</em>
-<strong>2015.05 - 2016.06</strong></p>
+<p><em>在线架构团队</em>
+<strong>2020.05 至今</strong></p>
+
+<p>设计研发新版 App Engine（Golang），以更接近 K8s 和云原生的方式，实现旧有系统相关功能，并支持多种新特性，如有状态服务部署、基于流量的金丝雀验证、基于 Sidecar 的插件机制、代码与配置同步回滚等。</p>
+
+<p>基于 Istio 服务网格，组建更为完善的微服务熔断、限速、鉴权管理，以及更高性能的预发布、联调方案。并为以后全链路压测、流量染色、流量录制与回放、持久功能分支等功能打下基础。</p>
 </dd>
 
-<dd>负责 Django Web 前后端、API、Scrapy 爬虫、缓存等功能的编写，实现和改进了支付宝/微信支付系统、题目导入渲染、拍照扫题等多个功能模块，深入定制 Django Admin 满足题库功能需求。</dd>
-
 <dd>
-<p><em>优学本（Pad 课堂教学）</em>
-<strong>2016.01 - 2016.06</strong></p>
+<p><em>工程效率团队</em>
+<strong>2016.07~2020.05</strong></p>
+
+<p>作为团队 Leader，带领团队设计和开发 Zhihu App Engine（ZAE），集构建（Jenkins），物理机、容器部署，定时任务管理，配置管理，资源管理，成本管理，监控报警，故障处理等功能于一身的 PaaS 平台（Python, React）。覆盖公司 90% 以上的业务。</p>
+
+<p>围绕业务开发需求，我们在镜像管理、金丝雀部署、蓝绿部署、预上线环境联调、容器调试、静态文件发布、路由管理（Nginx）、服务发现（Consul，HAProxy）、资源发现等多方面自研了方案。</p>
+
+<p>参与公司微服务治理，维护各语言公用的 RPC、离线任务、配置中心等组件，并支持服务的熔断、限速、鉴权（HAProxy）等功能。</p>
+
+<p>统一公司开发流程与规范，制定研发流程质量、安全指标，建设公司测试环境，规范业务开发运作流程。</p>
 </dd>
 
-<dd>负责教师后台系统前后端的架构与代码编写，实现了一套集题目组卷、课件上传与演示、作业布置批改与数据分析等于一身的校级教学管理系统。敏捷开发，熟悉 Scrum、测试驱动开发机制。</dd>
-
-<dt>北京奇艺世纪科技有限公司</dt>
+<dt>微学明日</dt>
 <dd>
-<p><em>爱奇艺开发者平台</em>
-<strong>2014.09 - 2015.05</strong></p>
+<p><em>后端开发团队</em>
+<strong>2015.05~2016.06</strong></p>
+
+<p>负责题库、平板教学等在线教育系统的后端、爬虫、支付等功能的编写（Python）。兼职部分前端开发。</p>
 </dd>
 
-<dd>作为架构者，带领团队从零构建一套集版本控制、代码复审、持续集成、持续部署、负载均衡、健康检查、Auto Scaling 等于一身的公司级私有 PaaS 平台（基于 Marathon, Docker，Jenkins, GitLab，Nginx）。</dd>
-
-<dd>沟通用户需求、设计界面草图、制定开发计划、开发核心模块，带领团队成员高效有序开发。</dd>
-
+<dt>爱奇艺</dt>
 <dd>
-<p><em>爱奇艺私有云平台</em>
-<strong>2013.07 - 2014.09</strong></p>
+<p><em>计算云团队</em>
+<strong>2013.03~2015.05</strong></p>
+
+<p>从零开始设计基于 Mesos、Docker 的云计算平台，驱动多 IDC 共 500 台以上虚拟机、物理机协同工作。促成 Hadoop, Spark, Storm, Chronos, 视频转码等分布式计算组件在该平台的弹性混部，提升资源利用率。</p>
+
+<p>初步设计和开发基于 Marathon、Jenkins、Nginx 的应用平台，成为现在爱奇艺云计算平台的雏形。</p>
+
+<p>在公司内外提供相关培训与公开课，发表专利和杂志文章若干，为 Mesos 周边项目提交开源代码若干。</p>
 </dd>
+</dl>
 
-<dd>独自从零开始构建公司私有云平台（基于 Mesos, Docker），驱动 500 台以上虚拟机、物理机协同工作。合作促成 Hadoop, Spark, Storm, Chronos 等分布式计算组件在该平台的应用，并接入公司的视频转码业务，以使以上各组件在该平台上实现弹性资源分配。并为其编写控制、审计后台。</dd>
+<h3 id="education">教育经历</h3>
 
-<dd>多次对公司内外人员提供弹性计算相关培训与公开课，并发表相关专利和杂志文章若干，提交开源代码若干。</dd>
-
-<dd>
-<p><em>OpenStack 二次开发</em>
-<strong>2013.03 - 2013.07</strong></p>
-</dd>
-
-<dd>编写代码为公司 OpenStack 平台添加 VMWare 虚拟机管理、统计功能；扩展 OpenStack Web 管理后台，提供虚拟机密码修改、VNC 远程连接等功能支持。</dd>
-
+<dl>
 <dt>中国科学技术大学</dt>
 <dd>
 <p><em>软件工程 硕士</em>
-<strong>2010.09 - 2013.03</strong></p>
-</dd>
+<strong>2010.09~2013.03</strong></p>
 
-<dd>在 Intel 公司实习，负责 Meego 性能优化、Google Chromium 核心定制等工作。</dd>
+<p>阅读 Linux 内核源码，了解内核启动、系统调用、进程调度等相关原理。</p>
+
+<p>在 Intel 公司实习，负责 Meego 性能优化、Google Chromium 核心定制等工作。</p>
+</dd>
 
 <dt>中国地质大学（北京）</dt>
 <dd>
-<p><em>电子信息工程 本科</em>
-<strong>2006.09 - 2010.06</strong></p>
-</dd>
+<p><em>电子信息工程 学士</em>
+<strong>2006.09~2010.06</strong></p>
 
-<dd>参与 KDE、Compiz、QSanguosha 等开源项目（C++）。在红帽软件（Red Hat）实习，负责内核测试工作。</dd>
+<p>参与 KDE、Compiz、QSanguosha 等 Linux 桌面系统相关开源项目（C++）。</p>
+
+<p>在红帽软件（Red Hat）实习，负责内核测试工作。</p>
+</dd>
 </dl>
 
 <hr />
 
 <h3 id="footer">Footer</h3>
 
-<p>Iven Hsu - Github: <a href="https://github.com/iven">@iven</a> - Twitter: <a href="https://twitter.com/ivenvd">@ivenvd</a></p>
-
-<hr />
+<p>许立剑 - Github: <a href="https://github.com/iven">@iven</a> - Twitter: <a href="https://twitter.com/ivenvd">@ivenvd</a></p>
 
     </div>
 </div>
